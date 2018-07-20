@@ -4,7 +4,8 @@
   "description": "Test Repository for the Alludeable Github App.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/mikemimik/alludeable-test/issues"
   },
-  "homepage": "https://github.com/mikemimik/alludeable-test#readme"
+  "homepage": "https://github.com/mikemimik/alludeable-test#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.4.1"
+  }
 }
