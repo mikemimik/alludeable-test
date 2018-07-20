@@ -5,9 +5,8 @@ describe('Index', () => {
 
   beforeEach(() => {
     index = require('../index');
-    console.log(index);
   });
   it('should export a function', () => {
-    expect(typeof index).toBe('Function');
+    expect(typeof index).toBe('function');
   });
 });
