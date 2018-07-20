@@ -6,4 +6,7 @@ describe('Index', () => {
   it('should export a function', () => {
     expect(typeof index).toBe('function');
   });
+  it('should be true', () => {
+    expect(true).toBe(true);
+  });
 });
